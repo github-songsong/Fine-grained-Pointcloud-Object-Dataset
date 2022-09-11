@@ -9,7 +9,12 @@
 
 # 
 
-We developed a simulation environment in Gazebo to record fine-grained object datasets including cars and shoes. Towards this goal, we considered 90 simulated household objects, imported from different resources (e.g., the YCB dataset, Gazebo repository, and etc). It should be noted that this is a very challenging dataset for object recognition tasks since we include both basic-level (i.e., objects that are not similar to each other such as apple vs. book) and fine-grained (the object that are very similar together spoon vs. fork) object categories. Furthermore, there are several objects with the same geometry, but different textures, and vice versa. In order to extract partially visible point clouds of an object, we move the object along a rose trajectory in front of the camera and record 300 views of the object. The obtained 27000 partial views are then organized into 90 object categories. 
+We developed a simulation environment in Gazebo to record fine-grained object datasets, including cars and shoes. 
+Towards these goals, firstly, we considered 13 car objects, imported from different resources(e.g., YCB datasets, Gazebo repository, and so on). It should be noted that this is a very challenging dataset for fine-grained RGB-D object recognition tasks since they are very similar together. For example, there are objects with the same geometry or color but different textures in these cars, and vice versa.
+
+Secondly, in terms of the fine-grained shoe dataset, we collected 120 shoe objects, also sourcing from the Gazebo repository. The shoe dataset is also very valuable for fine-grained object classification, given their remarkable similarity. For instance, considering the shoes with the same style or tag, they can just be recognized according to their tiny color difference. Besides, their appearance distinctions are reflected in their same color but slightly different textures, and vice versa. 
+
+In order to extract partially visible point clouds of every object, we move every object along a rose trajectory in front of the camera and record 60 views of the object. Finally, the obtained 780 partial car views and 7200 shoe views are organized into 13 car categories and 120 shoe categories, respectively. 
 
 
 
