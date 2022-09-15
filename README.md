@@ -22,4 +22,6 @@ In order to extract partially visible point clouds of every object, we move ever
 
 Please adequately refer to the paper any time this dataset is being used. If you do publish a paper where this dataset helped your research, we encourage you to cite the following paper in your publications:
 
-```bib
+```
+we need to add the paper bib here
+```
