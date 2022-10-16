@@ -23,5 +23,10 @@ In order to extract partially visible point clouds of every object, we move ever
 Please adequately refer to the paper any time this dataset is being used. If you do publish a paper where this dataset helped your research, we encourage you to cite the following paper in your publications:
 
 ```
-we need to add the paper bib here
+@article{xiong2022fine,
+  title={Fine-grained Object Categorization for Service Robots},
+  author={Xiong, Songsong and Kasaei, Hamidreza},
+  journal={arXiv preprint arXiv:2210.04613},
+  year={2022}
+}
 ```
