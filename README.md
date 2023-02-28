@@ -14,7 +14,7 @@ Towards these goals, firstly, we considered 100 restaurant objects, imported fro
 
 Secondly, in terms of the fine-grained shoe dataset, we collected 120 shoe objects, also sourcing from the Gazebo repository. The shoe dataset is also very valuable for fine-grained object classification, given their remarkable similarity. For instance, considering the shoes with the same style or tag, they can just be recognized according to their tiny color difference. Besides, their appearance distinctions are reflected in their same color but slightly different textures, and vice versa. 
 
-In order to extract partially visible point clouds of every object, we move every object along a rose trajectory in front of the camera and record 60 views of the object. Finally, the obtained 780 partial car views and 7200 shoe views are organized into 13 car categories and 120 shoe categories, respectively. 
+In order to extract partially visible point clouds of every object, we move every object along a rose trajectory in front of the camera and record object views of the object. Finally, the obtained 1200 partial restaurant object views and 7200 shoe views are organized into 20 restaurant object categories and 120 shoe categories, respectively. 
 
 
 
