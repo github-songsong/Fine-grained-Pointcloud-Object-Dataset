@@ -3,14 +3,14 @@
 ## 1. Fine-grained object datasets
 ![fine-grained object 1](imgs/fine-grained_object.png)
 
-**Fine-grained point cloud object dataset:** (left) ****13 categories car objects**** in Gazebo environment (point cloud format *.pcd)
+**Fine-grained point cloud object dataset:** (left) ****20 restaurant categories (100 objects)**** in Gazebo environment (point cloud format *.pcd)
 ;  (right) ****120 categories shoe objects**** in Gazebo environment (point cloud format *.pcd)
 
 
 # 
 
 We developed a simulation environment in Gazebo to record fine-grained object datasets, including cars and shoes. 
-Towards these goals, firstly, we considered 13 car objects, imported from different resources(e.g., YCB datasets, Gazebo repository, and so on). It should be noted that this is a very challenging dataset for fine-grained RGB-D object recognition tasks since they are very similar together. For example, there are objects with the same geometry or color but different textures in these cars, and vice versa.
+Towards these goals, firstly, we considered 100 restaurant objects, imported from different resources(e.g., YCB datasets, Gazebo repository, and so on). It should be noted that this is a very challenging dataset for fine-grained RGB-D object recognition tasks since they are very similar together. For example, there are objects with the same geometry or color but different textures in these cars, and vice versa.
 
 Secondly, in terms of the fine-grained shoe dataset, we collected 120 shoe objects, also sourcing from the Gazebo repository. The shoe dataset is also very valuable for fine-grained object classification, given their remarkable similarity. For instance, considering the shoes with the same style or tag, they can just be recognized according to their tiny color difference. Besides, their appearance distinctions are reflected in their same color but slightly different textures, and vice versa. 
 
