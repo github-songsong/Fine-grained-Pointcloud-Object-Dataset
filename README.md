@@ -2,12 +2,13 @@
 
 ## 1. Fine-grained object datasets
 ![fine-grained object 1](imgs/fine-grained_object.png)
-![fine-grained object 2](imgs/fine-grained_object_img.png)
+
 
 **Fine-grained point cloud object dataset:** (left) ****20 restaurant categories (100 objects)**** in Gazebo environment (point cloud format *.pcd)
 ;  (right) ****120 categories shoe objects**** in Gazebo environment (point cloud format *.pcd)
-
-
+![fine-grained object 2](imgs/fine-grained_object_img.png)
+**Fine-grained restaurant and shoe dataset:** (left) ****20 restaurant categories (100 objects)**** RGB images
+;  (right) ****120 categories shoe objects**** RGB images
 # 
 
 We developed a simulation environment in Gazebo to record fine-grained object datasets, including cars and shoes. 
