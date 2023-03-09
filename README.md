@@ -10,7 +10,7 @@
 **Fine-grained restaurant and shoe dataset:** (left) ****20 restaurant categories (100 objects)**** RGB images
 ;  (right) ****120 categories shoe objects**** RGB images
 # 
-
+# 
 We developed a simulation environment in Gazebo to record fine-grained object datasets, including cars and shoes. 
 Towards these goals, firstly, we considered 100 restaurant objects, imported from different resources(e.g., YCB datasets, Gazebo repository, and so on). It should be noted that this is a very challenging dataset for fine-grained RGB-D object recognition tasks since they are very similar together. For example, there are objects with the same geometry or color but different textures in these cars, and vice versa.
 
