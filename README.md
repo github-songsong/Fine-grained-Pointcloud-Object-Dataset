@@ -26,9 +26,9 @@ Please adequately refer to the paper any time this dataset is being used. If you
 
 ```
 @article{xiong2022fine,
-  title={Fine-grained Object Categorization for Service Robots},
-  author={Xiong, Songsong and Kasaei, Hamidreza},
+  title={Enhancing Fine-Grained 3D Object Recognition using Hybrid Multi-Modal Vision Transformer-CNN Models},
+  author={Songsong Xiong and Georgios Tziafas and Hamidreza Kasaei},
   journal={arXiv preprint arXiv:2210.04613},
-  year={2022}
+  year={2023}
 }
 ```
